@@ -140,6 +140,11 @@ button:hover{
 }
 
 @media screen and (min-width:375px) and (max-width:1000px) {
+    .news-card{
+        width: 375px;
+        height: 330px;
+    }
+
     .wrapper{
         display: flex;
         flex-direction: column;
@@ -148,15 +153,19 @@ button:hover{
     }
 
     h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .search-field{
-        width: 102%;
+        width: 100%;
     }
 
     .search{
         width: 100%;
+    }
+
+    p{
+        font-size: 16px;
     }
 
 }
