@@ -140,12 +140,6 @@ button:hover{
 }
 
 @media screen and (min-width:375px) and (max-width:1000px) {
-    .news-card{
-        width: 310px;
-        height: 270px;
-        /* transform: scale(0.9); */
-    }
-
     .wrapper{
         display: flex;
         flex-direction: column;
