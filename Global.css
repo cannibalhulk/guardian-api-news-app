@@ -169,3 +169,22 @@ button:hover{
     }
 
 }
+
+@media screen and (min-width:1366px) and (max-width:1700px) {
+    .news-card{
+        width: 330px;
+        height: 330px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    .search{
+        width: 100%;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
