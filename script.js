@@ -5,7 +5,7 @@ const a = document.querySelector('a');
 
 const button = document.querySelector('button');
 
-alert('Proqram test merhelesindedir. Axtaris ucun max 1 ingilisce soz yazmaginiz teklif olunur. Proqram avtomatik xeberleri yenileyir.')
+alert('Proqram test merhelesindedir. Duzgun netice ucucn axtaris yerine max 1 ingilisce soz yazmaginiz teklif olunur. Proqram avtomatik xeberleri yenileyir.')
 
 fetch('https://content.guardianapis.com/search?page=4&page-size=5&api-key=23be7ca1-3c45-4363-9d2f-9cc3d423b183')
     .then((res) => res.json())
