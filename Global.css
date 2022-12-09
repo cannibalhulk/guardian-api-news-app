@@ -142,7 +142,7 @@ button:hover{
     box-shadow: 4px 2px 9px 2px rgb(163, 163, 163);
 }
 
-@media screen and (min-width:375px) and (max-width:1000px) {
+@media(min-width:375px) and (max-width:1000px) {
     .news-card{
         width: 375px;
         height: 330px;
