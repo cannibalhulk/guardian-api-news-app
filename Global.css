@@ -40,6 +40,9 @@ i{
 }
 
 .search-field{
+    z-index: 10000;
+    top:0;
+    position:  sticky;
     width: 70%;
     display: flex;
     justify-content: space-evenly;
